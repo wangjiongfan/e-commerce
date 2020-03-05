@@ -1,20 +1,29 @@
-ÔÚÊ¹ÓÃÍêÕû°æÊ±Çë¿ªÆô±¾µØ·þÎñÆ÷£¬»òÊ¹ÓÃ¹«ÍøÓòÃûÏÂµÄ·þÎñÆ÷¡£²¢¸ù¾ÝÄãµÄÊý¾Ý¿âÀàÐÍ£¬ÔÚSQLÎÄ¼þ¼ÐÏÂÑ¡ÔñÖ¸¶¨Êý¾Ý¿âÀàÐÍµÄÎÄ¼þ¼Ð½«sqlÎÄ¼þµ¼Èëµ½ÄãµÄÖ¸¶¨Êý¾Ý¿â£¬²¢¸ù¾ÝÄãµÄÊý¾Ý¿âÐÅÏ¢ÐÞ¸ÄjingdongBackÎÄ¼þ¼ÐÏÂËùÓÐphpÎÄ¼þÄÚ µÚ8ÐÐ-µÚ11ÐÐ µÄÏà¹ØÊý¾Ý¿âÐÅÏ¢¡£ÔÙ½«ËùÓÐµÄphpÎÄ¼þÓëimgÎÄ¼þ¼Ð·ÅÈëÖ¸¶¨·þÎñÆ÷ÎÄ¼þ¼ÐÄÚ£¬¼´¿ÉÍê³Éºó¶ËÓëÊý¾Ý¿â²¿Êð¡£
+åœ¨ä½¿ç”¨å®Œæ•´ç‰ˆæ—¶è¯·å¼€å¯æœ¬åœ°æœåŠ¡å™¨ï¼Œæˆ–ä½¿ç”¨å…¬ç½‘åŸŸåä¸‹çš„æœåŠ¡å™¨ã€‚å¹¶æ ¹æ®ä½ çš„æ•°æ®åº“ç±»åž‹ï¼Œåœ¨SQLæ–‡ä»¶å¤¹ä¸‹é€‰æ‹©æŒ‡å®šæ•°æ®åº“ç±»åž‹çš„æ–‡ä»¶å¤¹å°†sqlæ–‡ä»¶å¯¼å…¥åˆ°ä½ çš„æŒ‡å®šæ•°æ®åº“ï¼Œå¹¶æ ¹æ®ä½ çš„æ•°æ®åº“ä¿¡æ¯ä¿®æ”¹jingdongBackæ–‡ä»¶å¤¹ä¸‹æ‰€æœ‰phpæ–‡ä»¶å†… ç¬¬8è¡Œ-ç¬¬11è¡Œ çš„ç›¸å…³æ•°æ®åº“ä¿¡æ¯ã€‚å†å°†æ‰€æœ‰çš„phpæ–‡ä»¶ä¸Žimgæ–‡ä»¶å¤¹æ”¾å…¥æŒ‡å®šæœåŠ¡å™¨æ–‡ä»¶å¤¹å†…ï¼Œå³å¯å®ŒæˆåŽç«¯ä¸Žæ•°æ®åº“éƒ¨ç½²ã€‚
 
 
-×¢£ºÈç¹ûÒªÊ¹ÓÃÍ·ÏñÉÏ´«¹¦ÄÜ£¬Çë×¢ÒâÐÞ¸Ä15upload.phpÎÄ¼þµÚ25ÐÐÓëµÚ28ÐÐµÄÍ¼Æ¬ÉÏ´«µÄÖ¸¶¨Â·¾¶£¨Í¼Æ¬´óÐ¡²»¿É¹ý´ó£©
+æ³¨ï¼šå¦‚æžœè¦ä½¿ç”¨å¤´åƒä¸Šä¼ åŠŸèƒ½ï¼Œè¯·æ³¨æ„ä¿®æ”¹15upload.phpæ–‡ä»¶ç¬¬25è¡Œä¸Žç¬¬28è¡Œçš„å›¾ç‰‡ä¸Šä¼ çš„æŒ‡å®šè·¯å¾„ï¼ˆå›¾ç‰‡å¤§å°ä¸å¯è¿‡å¤§ï¼‰
 
 
 
 
-Íê³Éºó¶ËÓëÊý¾Ý¿â²¿ÊðÖ®ºó£¬Çë¸ù¾ÝÄãµÄºó¶Ë²¿ÊðµÄµØÖ·£¬ÐÞ¸ÄÒÔÏÂvueÎÄ¼þ½Ó¿ÚµØÖ·£º
+å®ŒæˆåŽç«¯ä¸Žæ•°æ®åº“éƒ¨ç½²ä¹‹åŽï¼Œè¯·æ ¹æ®ä½ çš„åŽç«¯éƒ¨ç½²çš„åœ°å€ï¼Œä¿®æ”¹ä»¥ä¸‹vueæ–‡ä»¶æŽ¥å£åœ°å€ï¼š
 
-1¡¢ viewÎÄ¼þ¼ÐÏÂshangpin.vue       µÚ150ÐÐ£¬µÚ158ÐÐ
-2¡¢ viewÎÄ¼þ¼ÐÏÂMyShopping.vue     µÚ31ÐÐ
-3¡¢ viewÎÄ¼þ¼ÐÏÂMycomment.vue      µÚ24ÐÐ
-4¡¢ viewÎÄ¼þ¼ÐÏÂMine.vue           µÚ51ÐÐ£¬µÚ74ÐÐ
-5¡¢ viewÎÄ¼þ¼ÐÏÂlogin.vue          µÚ50ÐÐ
-6¡¢ viewÎÄ¼þ¼ÐÏÂClassify.vue       µÚ55ÐÐ£¬µÚ108ÐÐ
-7¡¢ viewÎÄ¼þ¼ÐÏÂCart.vue           µÚ53ÐÐ£¬µÚ81ÐÐ£¬µÚ113ÐÐ
-9¡¢ jdÏÂµÄzujianÎÄ¼þ¼ÐÏÂsku.vue         µÚ109ÐÐ
-10¡¢jdÏÂµÄzujianÎÄ¼þ¼ÐÏÂproducts.vue    µÚ51ÐÐ
-11¡¢jdÏÂµÄzujianÎÄ¼þ¼ÐÏÂcommentary.vue  µÚ62ÐÐ£¬µÚ65ÐÐ£¬µÚ103ÐÐ£¬µÚ106ÐÐ£¬µÚ116ÐÐ
+1ã€ viewæ–‡ä»¶å¤¹ä¸‹shangpin.vue       ç¬¬150è¡Œï¼Œç¬¬158è¡Œ
+
+2ã€ viewæ–‡ä»¶å¤¹ä¸‹MyShopping.vue     ç¬¬31è¡Œ
+
+3ã€ viewæ–‡ä»¶å¤¹ä¸‹Mycomment.vue      ç¬¬24è¡Œ
+
+4ã€ viewæ–‡ä»¶å¤¹ä¸‹Mine.vue           ç¬¬51è¡Œï¼Œç¬¬74è¡Œ
+
+5ã€ viewæ–‡ä»¶å¤¹ä¸‹login.vue          ç¬¬50è¡Œ
+
+6ã€ viewæ–‡ä»¶å¤¹ä¸‹Classify.vue       ç¬¬55è¡Œï¼Œç¬¬108è¡Œ
+
+7ã€ viewæ–‡ä»¶å¤¹ä¸‹Cart.vue           ç¬¬53è¡Œï¼Œç¬¬81è¡Œï¼Œç¬¬113è¡Œ
+
+9ã€ jdä¸‹çš„zujianæ–‡ä»¶å¤¹ä¸‹sku.vue         ç¬¬109è¡Œ
+
+10ã€jdä¸‹çš„zujianæ–‡ä»¶å¤¹ä¸‹products.vue    ç¬¬51è¡Œ
+
+11ã€jdä¸‹çš„zujianæ–‡ä»¶å¤¹ä¸‹commentary.vue  ç¬¬62è¡Œï¼Œç¬¬65è¡Œï¼Œç¬¬103è¡Œï¼Œç¬¬106è¡Œï¼Œç¬¬116è¡Œ
